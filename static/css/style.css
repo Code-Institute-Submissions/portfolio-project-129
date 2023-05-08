@@ -7,7 +7,6 @@ body {
     font-size: 50px;
     font-weight: 700;
     color:rgb(69, 107, 167);
-    /* position: static; */
 }
 
 .light-bg {
@@ -25,7 +24,7 @@ body {
 .card {
     border-color: rgb(181, 173, 173);
     border-style: ridge;
-    /* background-color: transparent; */
+    background-color: transparent;
     background-color: #F9FAFC;
 }
 

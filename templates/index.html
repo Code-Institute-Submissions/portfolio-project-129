@@ -13,8 +13,7 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
-                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                <img src="https://c.pxhere.com/photos/a8/1e/tree_forest_wood_evergreen_pine-53490.jpg!d" srcset="https://c.pxhere.com/photos/a8/1e/tree_forest_wood_evergreen_pine-53490.jpg!d" width="100%">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}

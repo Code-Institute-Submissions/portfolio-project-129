@@ -1,0 +1,136 @@
+body {
+    background-color: #F9FAFC;
+}
+
+.blog-title {
+    font-family: Lato, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:rgb(69, 107, 167);
+    /* position: static; */
+}
+
+.light-bg {
+    background-color: #344747;
+}
+
+.dark-bg {
+    background-color:#181818;
+}
+
+.main-bg {
+    background-color: #709aa08d;
+}
+
+.card {
+    border-color: rgb(181, 173, 173);
+    border-style: ridge;
+    /* background-color: transparent; */
+    background-color: #F9FAFC;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: -48%;
+    min-width: 30%;
+    left: 65%;
+}
+
+.author {
+    color:#4A4A4F;
+    margin: 4px;
+    text-transform: capitalize;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #181818;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: static;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #5e48b6;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-link {
+    text-decoration: none;
+    color:rgb(69, 107, 167);
+}
+
+.post-link:hover,
+.page-link {
+    color:slateblue;
+}
+
+.post-title {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: rgba(255, 255, 255, 0.786);
+}
+
+.btn-signup {
+    background-color: #6c4cec;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #6c4cec;
+}
+
+.link {
+    color: #370ec1;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #6749de;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: #10aee8;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #10aee8;
+    background: transparent;
+    border: none;
+}

@@ -33,7 +33,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['pp4-blogster.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['pp4-blogster.herokuapp.com']
 
 
 # Application definition
